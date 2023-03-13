@@ -111,6 +111,12 @@ void PXEG_Update(PXEG_Window* window, PXEG_Buffers *buffers)
 > This function update the window with the buffers each time you call it.
 
 ```c
+void PXEG_Clear(PXEG_Window* window, PXEG_Buffers *buffers, PXEG_Color color)
+```
+
+> This function clear the buffers with the color you pass.
+
+```c
 bool PXEG_Run()
 ```
 

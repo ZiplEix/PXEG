@@ -230,6 +230,24 @@ void PXEG_Update(PXEG_Window* window, PXEG_Buffers *buffers)
 }
 
 /**
+ * @brief Clear the buffer
+ *
+ * @param window the window
+ * @param buffers the buffer
+ */
+void PXEG_Clear(PXEG_Window* window, PXEG_Buffers *buffers, PXEG_Color color)
+{
+    for (int i = 0; i < window->pixel_width; i++) {
+        for (int j = 0; j < window->pixel_height; j++) {
+            buffers->pixels[i][j].r = color.r;
+            buffers->pixels[i][j].g = color.g;
+            buffers->pixels[i][j].b = color.b;
+            buffers->pixels[i][j].a = color.a;
+        }
+    }
+}
+
+/**
  * @brief Return if the window is open
  *
  * @return true if the window is open
