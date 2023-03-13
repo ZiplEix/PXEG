@@ -10,6 +10,8 @@ PXEG is a pixel engine for C and C++ base on the SDL2. It is a simple library th
 
 PXEG is very easy to use. You just have to include the header file. Then you can use the functions to draw pixels on the screen.
 
+A wiki is available in the wiki tab of the github repo
+
 ## How to compile ?
 
 PXEG is a header only library. You just have to include the header file. Be careful, you have to link the SDL2 library to your project :
