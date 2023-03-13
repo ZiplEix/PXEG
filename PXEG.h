@@ -74,6 +74,19 @@ int main(int argc, char *argv[])
 #include <stdlib.h>
 #include <stdbool.h>
 
+#define PXGE_COLOR_BLACK    (PXEG_Color){0  , 0  , 0  , 255}
+#define PXGE_COLOR_WHITE    (PXEG_Color){255, 255, 255, 255}
+#define PXGE_COLOR_RED      (PXEG_Color){255, 0  , 0  , 255}
+#define PXGE_COLOR_GREEN    (PXEG_Color){0  , 255, 0  , 255}
+#define PXGE_COLOR_BLUE     (PXEG_Color){0  , 0  , 255, 255}
+#define PXGE_COLOR_YELLOW   (PXEG_Color){255, 255, 0  , 255}
+#define PXGE_COLOR_PURPLE   (PXEG_Color){255, 0  , 255, 255}
+#define PXGE_COLOR_CYAN     (PXEG_Color){0  , 255, 255, 255}
+#define PXGE_COLOR_ORANGE   (PXEG_Color){255, 165, 0  , 255}
+#define PXGE_COLOR_BROWN    (PXEG_Color){165, 42 , 42 , 255}
+#define PXGE_COLOR_PINK     (PXEG_Color){255, 192, 203, 255}
+#define PXGE_COLOR_GREY     (PXEG_Color){128, 128, 128, 255}
+
 /**
  * @brief structure of the window
  *
